@@ -1,0 +1,598 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+html{
+height: 0vh;
+background-color: black;
+
+}
+
+*{ margin: 0;
+   padding: 0;
+  
+   list-style: none;
+   text-decoration: none;
+
+}
+
+header{
+        height: 110px;
+        background-color: rgba(10, 9, 9, 0.9);
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        
+
+}
+
+nav {
+        width: 60%;
+        background-color: rgba(10, 9, 9,0.9);
+        
+}
+
+ul {
+
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    
+
+
+}
+
+li {
+        list-style: none;
+        color: white;
+        cursor: pointer;
+        font-size: 19px;
+        transition: 1s;
+        font-family: 'kadam thmor pro', sans-serif ;
+
+
+}
+
+li:hover {
+        color: gray;
+
+}
+
+#fotologo {
+     width: 150px;
+     height: 110px;
+}
+
+
+.comentarios1 {
+               display: flex;
+               
+               justify-content: space-between;
+                width: 50%;
+                align-items: center;
+                margin-top: 100px;
+                margin-left: 25%;
+                height: 220px;
+                background-color: rgb(190, 190, 190);
+
+
+}
+
+.fotocoment{    border-radius: 50%;
+        width: 150px;
+        height: 150px;
+        margin-left: 50px;
+        
+
+}
+
+
+
+.comentariobody {
+                        display: flex;
+                justify-content: center;
+                      
+                        flex-direction: column;
+                        align-items: center;
+                       margin-top: 20px;
+                     
+
+}
+
+.comentario{
+                color: rgb(7, 6, 6);
+                font-size: 16px;
+                font-family:'kadam thmor pro', sans-serif;
+                margin-left: 100px;
+        
+
+             
+                
+
+}
+
+h2{
+                
+                color:black;
+                font-family: 'kadam thmor pro', sans-serif;
+
+}
+
+
+.comentarios2{
+                        display: flex;
+                        justify-content: center;
+                        width: 50%;
+                        margin-left: 25%;
+                        align-items: center;
+                        margin-top: 50px;
+                        height: 200px;
+                        background-color: rgb(190, 190, 190);
+
+
+}
+
+.welinem{
+                border-radius: 50%;
+                width: 150px;
+                height: 150px;
+                margin-left: 50px;
+
+
+}
+
+.comentariobody2{
+
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+
+
+}
+
+.comentario2{
+                font-size: 19px;
+                font-family:'kadam thmor pro', sans-serif;
+                margin-right: 50px;
+                margin-left: 50px;
+
+
+}
+
+.comentarios3{
+                width: 50%;
+                height: 200px;
+                background-color: rgb(190, 190, 190);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: 50px;
+                margin-left: 25%;
+
+}
+
+.comentariobody3{
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+
+
+}
+
+.wand{
+                border-radius: 50%;
+                width: 150px;
+                height: 150px;
+                margin-left: 50px;
+
+}
+
+
+.comentarios4{
+
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 50%;
+                height: 200px;
+                background-color: rgb(190, 190, 190);
+        margin-left: 25%;
+        margin-top: 50px;
+}
+
+.selena{
+
+        border-radius: 50%;
+        width: 150px;
+        height: 150px;
+             margin-left: 75px;
+        
+}
+
+
+
+.comentariobody4 {
+
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center ;
+        
+
+}
+
+.justin {
+                border-radius: 50%;
+                width: 150px ;
+                height: 150px;
+        margin-left: 50px;
+}
+
+
+.comentarios5 {
+                width: 50%;
+                height: 200px;
+                background-color: rgb(190, 190, 190) ;
+                margin-left: 25%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: 50px;
+
+
+
+
+}
+
+.comentariobody5 {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+
+
+}
+
+
+.comentarios6{
+                width: 50%;
+                height: 200px;
+                margin-top: 50px;
+                margin-left: 25%;
+                display: flex;
+                
+                justify-content: center;
+                align-items: center;
+
+
+}
+
+.ney{
+                border-radius: 50%;
+                width: 150px;
+                height: 150px;
+                margin-left: 50px;
+
+}
+
+
+.comentariobody6{
+
+                display: flex ;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+
+}
+
+.comentarios7{
+
+        width: 50%;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+        margin-left: 25%;
+        background-color: rgb(190, 190, 190) ;
+
+
+}
+
+.neto{
+                border-radius: 50%;
+                width: 150px;
+                height: 150px;
+                margin-left: 50px;
+
+
+}
+
+.comentariobody7{
+
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+
+}
+
+
+
+footer{
+        height: 300px;
+        margin-top: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+    spam{
+    color: #fff;
+    font-family: 'kadam thmor pro', sans-serif;
+    }
+    
+    .footer-navigation{
+    display: none;
+    
+    
+    }
+    
+    .footer-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    }
+    
+    #logo{
+                    height: 400px;
+                    width: 400px;
+    
+    }
+    
+@media (max-width: 1280px){
+
+
+        .footer-navigation{
+                display: block;
+        }
+
+        nav{
+                display: none;
+        }
+
+        .comentarios1{
+                        width: 50%;
+                        height: 400px;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        margin-left: ;
+        
+        
+        }
+        
+        
+        .comentarios2 {
+        
+                        width: 50%;
+                        height: auto;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        
+        
+        }
+        
+        .comentarios3 {
+        
+                width: 50%;
+                height: auto;
+                display: flex;
+                flex-direction: column;
+                justify-content:center;
+           
+        
+        
+        
+        
+        
+        }
+        
+        .comentarios4{
+                        width: 50%;
+                        height: auto;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                      
+        
+        
+        
+        }
+        
+        
+        .comentarios5{
+        
+                        width: 50%;
+                        height: auto;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+           
+        
+        
+        }
+        
+        
+        .comentarios6{
+        
+                width: 50%;
+                height: auto;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                margin-left: 0;
+        
+        
+        }
+        
+        
+        .comentarios7{
+        
+                width: 50%;
+        
+                height: auto;
+        
+                display: flex;
+        
+                flex-direction: column;
+        
+                justify-content: center;
+        
+             
+        
+        
+        
+        
+        }
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        }
+
+
+@media (max-width: 768px){
+
+        
+        .footer-navigation{
+                display: block;
+        }
+
+        nav{
+                display: none;
+        }
+
+
+.comentarios1{
+                width: 100%;
+                height: 400px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                margin-left: 0;
+
+
+}
+
+
+.comentarios2 {
+
+                width: 100%;
+                height: 400px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                margin-left: 0;
+
+
+}
+
+.comentarios3 {
+
+        width: 100%;
+        height: 450px;
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        margin-left: 0;
+
+
+
+
+
+}
+
+.comentarios4{
+                width: 100%;
+                height: auto;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                margin-left: 0;
+
+
+
+}
+
+
+.comentarios5{
+
+                width: 100%;
+                height: auto;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                margin-left: 0;
+
+
+}
+
+
+.comentarios6{
+
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 0;
+
+
+}
+
+
+.comentarios7{
+
+        width: 100%;
+
+        height: auto;
+
+        display: flex;
+
+        flex-direction: column;
+
+        justify-content: center;
+
+        margin-left: 0;
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+}
